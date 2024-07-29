@@ -24,7 +24,7 @@ import { toast } from 'react-toastify';
 import toastError from '../../errors/toastError';
 import 'react-toastify/dist/ReactToastify.css';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-//import backgroundStep from "/home/deploy/teste/frontend/src/assets/backgroundStep.png";
+//import backgroundStep from "/home/deploy/NOME_INSTANCIA/frontend/src/assets/backgroundStep.png"; //mudar o nome da instancia
 
 const logo = `${process.env.REACT_APP_BACKEND_URL}/public/logotipos/login.png`;
 
